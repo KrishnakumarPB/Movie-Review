@@ -1,0 +1,39 @@
+h1, p {
+  font-family: Lato;
+}
+*
+{
+box-sizing:border-box;
+}
+.header{
+  /* background-color:rgb(4, 16, 49); */
+  background-image:url("https://t3.ftcdn.net/jpg/03/20/72/88/240_F_320728820_h3eGEGzIcguOFVDsaMTBfwbbRaVgmKyJ.jpg") ;
+  padding:8px;
+  height:80px;
+  display:flex;
+  align-items:center;
+}
+.title{
+margin-right:auto;
+margin-left:25px
+}
+.header .title >h1{
+
+  color:white;
+  text-align:center
+}
+.header.searchbar
+{
+  margin-left:auto;
+  position:absolute;
+  border: none;
+  font-size: 17px;
+  align-items:center;
+}
+.header .searchbar >input[type=text]
+{
+  height:30px;
+  width:250px;
+  border:none;
+  border-radius:8px;
+}

@@ -1,0 +1,78 @@
+h1, p {
+  font-family: Lato;
+}
+*{
+box-sizing:border-box;
+}
+body
+{
+  background-color:rgb(0, 0, 0);
+}
+.container-body
+{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  background-color:rgb(10, 10, 27);
+}
+.container:hover
+{
+  cursor:pointer;
+  opacity:60%;
+}
+.container .card
+{
+  margin-top:10px;
+  height:550px;
+  width:360px;
+  background-color:rgb(4, 16, 49);
+  border-radius:10px;
+}
+
+.container .card .image-container >img
+{
+  border-radius:10px;
+  height:400px;
+  width:360px;
+  transition:all 2s;
+}
+/* .container .card .image-container >img:hover
+{
+  height:200px;
+  width:160px
+} */
+.container .card .basic-info
+{
+  display:flex;
+  height:40px;
+  background-color:rgb(5, 5, 100);
+  align-items:center;
+  padding-right:10px;
+  position:relative;
+}
+.container .card .basic-info .title >h1
+{
+  color:white;
+  font-size:18px;
+  font-weight:700;
+  text-wrap:wrap;
+}
+.container .card .basic-info .year >h1
+{
+  color:white;
+  font-size:15px;
+  font-weight:500;
+}
+.container .card .description
+{
+  width:360px;
+  overflow:hidden;
+  height:75px;
+  color:rgb(255, 242, 242);
+}
+.container .card .description >p
+{
+  padding:5px;
+  font-size:16px;
+  font-weight:100;
+}
